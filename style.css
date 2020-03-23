@@ -1,0 +1,184 @@
+.bg-black{
+	background-color: black;
+}
+
+.font-div{
+	width: 30%;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.lower{
+	margin-top: 1rem;
+}
+
+
+.tuti{
+	border-bottom: 1px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.brown-lighten{
+	background-color: #bcaaa4;
+	color: black;
+}
+
+.green{
+	background-color: #8bf0ba;
+    
+}
+
+.khaki{
+	background-color: #e6dbc9;
+	color: black;
+}
+
+.col-md-3 h6{
+	text-align: center;
+}
+
+a{
+	color: #f8f9fa;
+}
+
+.btn{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-general {
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#footer-menu a {
+	text-decoration: inherit;
+}
+
+.button{
+	color:  #fff;
+	font-weight: 100;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'proxima nova';
+	border: solid 2px;
+	border-radius: 50px;
+	padding: 5px 10px;
+	transition-duration: 200ms;
+
+}
+
+.button:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+/* responsinve*/
+
+@media only screen and  (min-width: 1198px){
+	.font-div{
+		padding: 42.5px 0px!important;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 320px){
+	.d-row{
+	width: 15.1rem;
+}
+
+.font-div{
+	font-size: 10px;
+}
+
+}
+
+
+
+
+/* 3-16-20 boostrap car*/
+
+.card-text{
+	color: rgb(0,0,0,0.59);
+}
+/* 
+.card{
+   width: 20rem;
+}
+*/
+.card:hover{
+	-webkit-box-shadow: -1px 9px 40px -12px rgba(255,255,255,0.75);
+	-moz-box-shadow: 1px 9px 40px -12px rgba(255,255,255,0.75);
+	box-shadow: 1px 9px 40px -12px rgba(255,255,255,0.75);
+}
+
+.inner{
+	overflow: hidden;
+
+}
+
+.inner img{
+	transition: all 1.5s ease;
+}
+
+.inner:hover img{
+	transform: scale(1.5);
+}
+
+.btn-primary{
+	padding: 5px 30px;
+	background-color: transparent;
+	color: black;
+	font-family: roboto;
+
+}
+
+.btn-primary:hover{
+	/*background-color: #bc9029;*/
+	border-color: #9ecce8;
+	background-color: #9ecce8;
+}
+
+.card-body{
+	background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
